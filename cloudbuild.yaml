@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['gsutil', 'cp', '*', 'gs://buck-it-1/']
+  args: ['gsutil', 'cp', '*.png', 'gs://buck-it-1/']
 #  # Build the container image
 #  - name: 'gcr.io/cloud-builders/docker'
 #    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/run1/dommani:$COMMIT_SHA', '.']
