@@ -1,4 +1,4 @@
- steps:
+steps:
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['gsutil', 'cp', '*', 'gs://buck-it-1/']
 #  # Build the container image
